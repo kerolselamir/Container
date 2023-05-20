@@ -1,0 +1,723 @@
+/******************************************************** extra large **************************************************/
+@media screen and (max-width:1450px) and (min-width:1200px){
+    
+    /* start of nav */
+    .nav-icons
+    {
+        width: 8%;
+    }
+   /* end of nav */
+
+    /* start of what */
+    .what-container
+    {
+        width:88%
+    }
+    /* .what-icon
+    {
+        margin-right: 10px;
+    } */
+    .what-caption
+    {
+        width: 81%;
+    }
+    /* end of what */
+}
+
+
+/********************************************************** large ***********************************************************/
+@media screen and (max-width:1200px) and (min-width:992px){
+    
+    /* start of nav */
+    .nav-icons
+     {
+       width: 9%;
+     }
+     .nav ul
+     {
+         width: 49%;
+     }
+    /* end of nav */
+    
+     /* start of home */
+    .home-caption h2,.home-caption h2::after
+    {
+        font-size: 65px;
+    }
+    /* end of home */
+
+     /* start of what */
+    .what-container
+    {
+        width:86%
+    }
+    .what-icon
+    {
+        margin-right: 15px;
+    }
+    .what-caption
+    {
+        width: 80%;
+    }
+    /* end of what */
+
+     /* start of summary */
+    .summary-container 
+    {
+    width: 88%;
+    }
+    .summary-item
+    {
+        width: 92%;
+    }
+    /* end of summary */
+
+    /* start of Portfolio */
+    .Portfolio-container
+    {
+        width: 88%;
+    }
+    .Portfolio-items
+    {
+        display: flex;
+        column-gap:25px;
+    }
+    /* end of Portfolio */
+}
+
+
+
+/********************************************************** medium ***********************************************************/
+@media screen and (max-width:992px) and (min-width:768px){
+  
+    /*start of nav*/
+    .nav .nav-icons,.nav ul 
+    {
+        display: none;
+    }
+    .settings
+    {
+        display: block;
+    }
+    /*end of nav*/
+
+    /* start of home */
+    .home-caption h2,.home-caption h2::after
+    {
+        font-size: 55px;
+    }
+    /* end of home */
+
+    /* start of about */
+    .about-container
+    {
+        display: flex;
+        flex-wrap: wrap;
+        width:83%;
+    }
+    .about-left
+    {
+        width: 100%;
+        text-align: center;
+    }
+    .about-right
+    {
+        width: 100%;
+        margin-top:80px ;
+    }
+    .about .about-header,.what .what-header,.summary .summary-header,.Portfolio .Portfolio-header
+    ,.testimonial .testimonial-header,.Contact.Contact-header
+    {
+        font-size: 90px;
+    }
+    .about .about-header::before,.what .what-header::before,.summary .summary-header::before
+    ,.Portfolio .Portfolio-header::before,.testimonial .testimonial-header::before,.Contact
+    .Contact-header::before
+    {
+        font-size: 35px;
+    }
+    .about .about-header::after,.what .what-header::after,.summary  .summary-header::after
+    ,.Portfolio .Portfolio-header::after,.testimonial .testimonial-header::after,.Contact
+    .Contact-header::after
+    {
+        top:73%
+    }
+    /* end of about */
+
+     /* start of what */
+    .what-container
+    {
+        width:92%
+    }
+    .what-icon
+    {
+        margin-right: 17px;
+    }
+    .what-caption
+    {
+        width: 76%;
+    }
+    .what-item
+    {
+        margin-bottom: 25px;
+    }
+    /* end of what */
+
+    /* start of summary */
+    .summary-container 
+    {
+    width: 75%;
+    }
+    .summary-item
+    {
+        width: 88%;
+    }
+     .progress
+    {
+       width: 88%; 
+    }
+    /* end of summary */
+
+     /* start of Portfolio */
+    .Portfolio-container
+    {
+        width: 88%;
+    }
+    .Portfolio-items
+    {
+        display: flex;
+        column-gap:20px;
+    }
+    /* end of Portfolio */
+
+     /* start of testimonial */
+    .testimonial-container
+    {
+        width: 88%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .testimonial-left,.testimonial-right
+    {
+        width:100%
+    }
+    /* end of testimonial */
+
+     /* start of contact */
+     .Contact-container
+     {
+         width: 88%;
+         display: flex;
+         flex-wrap: wrap;
+     }
+     .Contact-left
+     {
+        /* background-color: red; */
+        width: 30%;
+     }
+     .Contact-right
+     {
+        /* background-color:tomato; */
+        width:70%
+     }
+     /* end of contact */
+
+     /* start of footer */
+    .footer-container
+    {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content:center;
+    }
+    .footer-container p
+    {
+        width: 100%;
+        text-align: center;
+    }
+    .footer-caption a
+    {
+        width: 100%;
+    }
+    .footer-caption
+    {
+       margin-top: 25px;
+    }
+    /* start of footer */
+}
+
+
+/********************************************************** small ***********************************************************/
+@media screen and (max-width:768px) and (min-width:600px){
+   
+    /*start of nav*/
+    .nav .nav-icons,.nav ul 
+    {
+        display: none;
+    }
+    .settings
+    {
+        display: block;
+    }
+    /*end of nav*/
+
+    /* start of home */
+    .home-caption p:nth-child(1)
+    {
+        font-size:29px
+    } 
+    .home-caption p:nth-child(3)
+    {
+        font-size: 24px;
+    }
+    .home-caption h2,.home-caption h2::after
+    {
+        font-size: 50px;
+    }
+    /* end of home */
+
+     /* start of about */
+    .about-container
+    {
+        display: flex;
+        flex-wrap: wrap;
+        width:77%;
+    }
+    .about-left
+    {
+        width: 100%;
+        text-align: center;
+    }
+    .about-right
+    {
+        width: 100%;
+        margin-top:80px ;
+    }
+    .about .about-header,.what .what-header,.summary .summary-header,.Portfolio .Portfolio-header
+    ,.testimonial .testimonial-header,.Contact .Contact-header
+    {
+        font-size: 85px;
+    }
+    .about .about-header::before,.what .what-header::before,.summary .summary-header::before
+    ,.Portfolio .Portfolio-header::before,.testimonial .testimonial-header::before,.Contact
+    .Contact-header::before
+    {
+        font-size: 35px;
+    }
+    .about .about-header::after,.what .what-header::after,.summary .summary-header::after
+    ,.Portfolio .Portfolio-header::after,.testimonial .testimonial-header::after,.Contact
+    .Contact-header::after
+    {
+        top:73%
+    }
+    /* end of about */
+
+     /* start of info */
+    .info-container
+    {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .info-item
+    {
+        width:50%;
+    }
+    .info .item3,.info .item4
+    {
+        border-top: 0.5px dotted  rgb(76, 77, 77,0.7);
+    }
+    .info .item2
+    {
+        border-right: none;
+    }
+    /* end of info */
+
+     /* start of what */
+    .what-container
+    {
+        width:67%
+    }
+    .what-item
+    {
+        width: 100%;
+        margin-bottom:25px;
+    }
+    .what-icon
+    {
+        margin-right: 17px;
+    }
+    .what-caption
+    {
+        width: 80.5%;
+    }
+    /* end of what */
+
+     /* start of summary */
+    .summary-container 
+    {
+    width: 68%;
+    }
+    .summary-parent
+    {
+        display: flex;
+        flex-wrap: wrap;
+    
+    }
+    .summary-left-items
+    {
+        width: 100%;
+    }
+    .summary-right-items
+    {
+        width: 100%;
+    }
+    .summary-item
+    {
+        width: 100%;
+    }
+    .summary-right-items h2
+    {
+        margin: 5px 0px 25px;
+    }
+    .skills
+    {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .skills-left,.skills-right
+    {
+        width: 100%; 
+    }
+     .progress
+    {
+       width: 100%; 
+    }
+    /* end of summary */
+
+    /* start of Portfolio */
+    .Portfolio-container
+    {
+        width: 95%;
+    }
+    .Portfolio-items
+    {
+        display: flex;
+        column-gap:19px;
+    }
+    /* end of Portfolio */
+
+     /* start of testimonial */
+    .testimonial-container
+    {
+        width: 95%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .testimonial-left,.testimonial-right
+    {
+        width:100%
+    }
+    /* end of testimonial */
+
+     /* start of contact */
+     .Contact-container
+     {
+         width: 75%;
+         display: flex;
+         flex-wrap: wrap;
+         flex-direction: column-reverse;
+     }
+     .Contact-left
+     {
+         width: 100%;
+         text-align:center;
+     }
+     .Contact-right
+     {
+         width: 100%;
+         text-align:center;
+     }
+     .Contact-right .name-email
+     {
+         display:flex;
+         flex-wrap:wrap;
+     }
+     .name-email .name,.name-email .email
+     {
+         width: 100%;
+     }
+     .name-email .name
+     {
+         margin-bottom: 20px;
+     }
+     /* end of contact */
+
+    /* start of footer */
+    .footer-container
+    {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content:center;
+    }
+    .footer-container p
+    {
+        width: 100%;
+        text-align: center;
+    }
+    .footer-caption a
+    {
+        width: 100%;
+    }
+    .footer-caption
+    {
+       margin-top: 25px;
+    }
+    /* start of footer */
+
+}
+
+
+/********************************************************** extra small ******************************************************/
+@media screen and (max-width:600px){
+
+    /*start of nav*/
+    .nav .nav-icons,.nav ul 
+    {
+        display: none;
+    }
+    .settings
+    {
+        display: block;
+    }
+    /*end of nav*/
+
+    /* start of home */
+    .home-caption p:nth-child(1)
+    {
+        font-size:29px
+    } 
+    .home-caption p:nth-child(3)
+    {
+        font-size: 22px;
+    }
+    .home-caption h2,.home-caption h2::after
+    {
+        font-size: 45px;
+    }
+    .home-caption button
+    {
+        padding: 15px 30px;
+    }
+    /* end of home */
+
+    /* start of about */
+    .about-container
+    {
+        display: flex;
+        flex-wrap: wrap;
+        width:93%;
+    }
+    .about-left
+    {
+        width: 100%;
+        text-align: center;
+    }
+    .about-right
+    {
+        width: 100%;
+        margin-top:80px ;
+    }
+    .about .about-header,.what .what-header,.summary .summary-header,.Portfolio .Portfolio-header
+    ,.Contact .Contact-header
+    {
+        font-size: 75px;
+    }
+    .testimonial .testimonial-header
+    {
+        font-size:60px
+    }
+    .about .about-header::before,.what .what-header::before,.summary .summary-header::before
+    ,.Portfolio .Portfolio-header::before,.Contact .Contact-header::before,.testimonial 
+    .testimonial-header::before
+    {
+        font-size: 25px;
+    }
+    .about .about-header::after,.what .what-header::after,.summary .summary-header::after
+    ,.Portfolio .Portfolio-header::after,.testimonial .testimonial-header::after,.Contact
+    .Contact-header::after
+    {
+        top:73%
+    }
+    /* end of about */
+    
+    /* start of info */
+    .info-container
+    {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .info-item
+    {
+        width:50%;
+    }
+    .info .item3,.info .item4
+    {
+        border-top: 0.5px dotted  rgb(76, 77, 77,0.7);
+    }
+    .info .item2
+    {
+        border-right: none;
+    }
+    /* end of info */
+
+    /* start of what */
+    .what-container
+    {
+        width:90%
+    }
+    .what-item
+    {
+        width: 100%;
+        margin-bottom:25px;
+    }
+    .what-caption
+    {
+        width: 79%;
+    }
+    /* end of what */
+
+    /* start of summary */
+    .summary-container
+    {
+    width: 90%;
+    }
+    .summary-parent
+    {
+        display: flex;
+        flex-wrap: wrap;
+    
+    }
+    .summary-left-items
+    {
+        width: 100%;
+    }
+    .summary-right-items
+    {
+        width: 100%;
+    }
+    .summary-item
+    {
+        width: 100%;
+    }
+    .summary-right-items h2
+    {
+        margin: 5px 0px 25px;
+    }
+    .skills
+    {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .skills-left,.skills-right
+    {
+        width: 100%; 
+    }
+     .progress
+    {
+       width: 100%; 
+    }
+    .summary button
+    {
+        padding: 13px 40px;
+    }
+    .summary button a
+    {
+        font-size: 16px
+    }
+    /* end of summary */
+
+    /* start of Portfolio */
+    .Portfolio-container
+    {
+        width: 95%;
+    }
+    .Portfolio-1,.Portfolio-2,.Portfolio-3
+    {
+        width:100%
+    }
+    /* end of Portfolio */
+
+    /* start of testimonial */
+    .testimonial-container
+    {
+        width: 95%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .testimonial-left,.testimonial-right
+    {
+        width:100%
+    }
+    /* end of testimonial */
+
+    /* start of contact */
+    .Contact-container
+    {
+        width: 95%;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column-reverse;
+    }
+    .Contact-left
+    {
+        width: 100%;
+        text-align:center;
+    }
+    .Contact-right
+    {
+        width: 100%;
+        text-align:center;
+    }
+    .Contact-right .name-email
+    {
+        display:flex;
+        flex-wrap:wrap;
+    }
+    .name-email .name,.name-email .email
+    {
+        width: 100%;
+    }
+    .name-email .name
+    {
+        margin-bottom: 20px;
+    }
+    .Contact-right button
+    {
+        padding: 13px 30px;
+    }
+    /* end of contact */
+
+    /* start of footer */
+    .footer-container
+    {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content:center;
+    }
+    .footer-container p
+    {
+        width: 100%;
+        text-align: center;
+    }
+    .footer-caption a
+    {
+        width: 100%;
+    }
+    .footer-caption
+    {
+       margin-top: 25px;
+    }
+    /* start of footer */
+}
